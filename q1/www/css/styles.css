@@ -1,0 +1,132 @@
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+
+body {
+    /*
+    The reason my background image does not have the <img>
+    alt attribute:
+    "I think you should read this post by Christian Heilmann.
+    He explains that background images are ONLY for aesthetics and
+    should not be used to present data, and are therefore exempt from
+    the rule that every image should have alternate-text."
+    https://stackoverflow.com/questions/4216035/css-background-image-alt-attribute
+    */
+    background-image: url("../img/homepage_donuts.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: #cccccc;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 24px;
+    font-weight: normal;
+    color: black;
+}
+
+#maintext {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  border: 5px solid pink;
+  background-color: magenta;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+#header1 {
+  width: auto;
+  padding: 50px;
+  border: 5px solid pink;
+  background: magenta;
+  font-size: 50px;
+  text-align: center;
+}
+
+#header2 {
+  margin-top: 10%;
+  margin-bottom: 100px;
+  width: 300px;
+  padding: 50px;
+  border: 5px solid pink;
+  background: magenta;
+  font-size: 50px;
+  text-align: center;
+}
+
+#pink_donut {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size:200px;
+  background-image: url("../products/pink_donut/img/pink_donut.jpg");
+}
+
+#chocolate_donut {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size:200px;
+  background-image: url("../products/chocolate_donut/img/chocolate_donut.jpg");
+}
+
+.indent-1 {left;}
+.indent-1 section {width: 50%;float: left;}
+a {text-decoration: none;}
+
+.button {
+  border: 5px solid pink;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: magenta;
+}
+
+/* <CHECKOUT_CART> */
+.item {
+  background: magenta !important;
+  color: green !important;
+}
+
+#item-name {
+  color: white;
+}
+
+#item-description {
+  color: white;
+}
+
+#item-quantity {
+  color:white;
+}
+
+#item-price {
+  color:white;
+}
+
+#item-quantity {
+  color:white;
+}
+
+#cart-total {
+  background: magenta;
+}
+
+#cart-total-subtotal {
+  color:white;
+}
+
+#cart-total-hst {
+  color: white;
+}
+
+#cart-total-amount {
+  color:white;
+}
+
+.white-text {
+  color:white;
+}
+/* </CHECKOUT_CART> */
